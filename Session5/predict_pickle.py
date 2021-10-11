@@ -17,5 +17,5 @@ dv_in.close()
 customer = {"contract": "two_year", "tenure": 12, "monthlycharges": 19.7}
 
 prediction = predict_single(customer, dv, model)
-print("Score of the customer:", prediction)
+print(prediction)
 
